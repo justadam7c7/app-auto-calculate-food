@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(  	70, 70, 70);
+    background-color: rgb( 70, 70, 70);
 }
 
 .wrapper {
@@ -26,7 +26,7 @@ body {
     flex-direction: column;
     height: 200px;
     color: #fff;
-    background-color: 	rgb(235, 0, 0);
+    background-color: rgb(235, 0, 0);
     text-transform: uppercase;
 }
 
@@ -60,14 +60,14 @@ input, select {
     font-size: 24px;
     border-radius: 8px;
     color: #fff;
-    background-color: 	rgb(235, 0, 0);
+    background-color: rgb(235, 0, 0);
     border: none;
     cursor: pointer;
     transition: background-color .3s;
 }
 
 .count:hover {
-    background-color: 	rgb(235, 0, 0);
+    background-color: rgb(235, 0, 0);
 }
 
 .cost-info {

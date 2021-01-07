@@ -6,7 +6,6 @@ const countBtn = document.querySelector('.count');
 const costInfo = document.querySelector('.cost-info');
 const cost = document.querySelector('.cost');
 
-
 const showBill = () => {
     if (price.value == '' || people.value == '' || tip.value == 0) {
         error.textContent = 'Uzupełnij wszystkie pola!';
@@ -26,6 +25,4 @@ const countBill = () => {
     costInfo.style.display = 'block';
     cost.textContent = sum.toFixed(2);
 };
-
-
 countBtn.addEventListener('click', showBill);
